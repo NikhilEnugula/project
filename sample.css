@@ -1,0 +1,109 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+}
+h1,
+h2,
+h3 {
+  color: orangered;
+}
+h1 {
+  font-family: sans-serif;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+ul,
+ol {
+  margin-left: 50px;
+}
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin-bottom: 0;
+}
+footer p {
+  font-size: 16px;
+}
+/*
+article header p {
+  font-style: italic;
+} */
+#author {
+  font-style: italic;
+  font: size 18px;
+}
+#copyright {
+  font: size 16px;
+}
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+.list-related {
+  list-style: none;
+}
+body {
+  color: rgb(105, 104, 104);
+  font-family: sans-serif;
+  border-top: 10px solid orangered;
+}
+.main-header {
+  background-color: #f3efef;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.post-header {
+  margin-bottom: 40px;
+}
+nav {
+  font-size: 18px;
+}
+article {
+  margin-bottom: 60px;
+}
+aside {
+  background-color: #f3efef;
+  border: 5px solid rgb(238, 64, 1);
+  border-bottom: 5px solid orangered;
+  padding: 50px 0;
+}
+a {
+  color: orangered;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(122, 248, 122);
+}
+a:active {
+  background-color: rgb(2, 2, 2);
+}
+.img2 {
+  align-content: center;
+}
